@@ -1,0 +1,66 @@
+.panel {
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    box-shadow: 0 5px 2px #ffffff0d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+body {
+    background-color: #121212;
+}
+
+.card{
+    background-color: #2C394B;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px black;
+}
+
+.cardphoto {
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 24px;
+}
+
+.font {
+    /* font-family: "Courier New", Courier, monospace; */
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.title-font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.panel a, .panel a:visited, .panel a:active {
+    color: #BB86FC;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
