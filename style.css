@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     background-color: #1f1f1f;
-    box-shadow: 0 5px 2px #ffffff0d;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
 }
 
 body {
@@ -28,20 +31,21 @@ body {
     width: 50%;
     height: 80%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 75px;
     border-radius: 15px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0 0 10px 2px black;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .cardphoto {
     display: block;
     height: 70%;
     width: 30%;
-    margin-left: 10px;
-    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
 }
 
 h1 {
@@ -54,6 +58,8 @@ h1 {
 .font {
     /* font-family: "Courier New", Courier, monospace; */
     font-family: "Lucida Console", Monaco, monospace;
+    color: #F5F5F5;
+    opacity: 1;
 }
 
 .title-font {
@@ -77,10 +83,12 @@ h1 {
 }
 
 .test {
-    height: 50px;
-    width: 50px;
-    background-color: #BB86FC;
-    margin: 5px;
+    min-height: 28vw;
+    width: 20vw;
+    background-color: #1f1f1f;
+    margin: 10px;
+    border-radius: 15px;
+
 }
 
 .blocks{
@@ -90,6 +98,63 @@ h1 {
 }
 
 .otstyp {
-    margin-top: 20px;
+    margin-top: 8vw;
 }
 
+.icone {
+    height: 40px;
+    width: 40px;
+}
+
+.skils-text {
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.skils-photo {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    border-radius: 15px;
+    filter: opasity(0.8)
+}
+
+.contact-information {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#blank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardphoto {
+      display: none;
+    }
+  }
+
+#troll {
+    display:flex;
+    justify-content: center;
+
+}
+
+#troll p{
+    padding: 10px;
+    background-color: #BB86FC;
+    border-radius: 8px;
+}
+
+#troll p:hover{
+    margin-left: 50vw;
+}
+
+.best{
+    text-align: center;
+    color: #ffffff06;
+}
