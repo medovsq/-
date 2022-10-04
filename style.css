@@ -24,26 +24,30 @@ body {
 }
 
 .card{
-    background-color: #2C394B;
-    width: 300px;
-    height: 400px;
-    margin: 50px;
+    background-color: #bb86fc;
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    margin-top: 10px;
     border-radius: 15px;
     padding: 10px;
     box-shadow: 0 0 10px 2px black;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .cardphoto {
     display: block;
-    height: 200px;
-    width: 200px;
-    margin: auto;
-    border-radius: 50%;
+    height: 70%;
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 h1 {
-    color: #F5F5F5;
+    display: block;
     text-align: center;
+    color: #F5F5F5;
     font-size: 24px;
 }
 
@@ -63,4 +67,29 @@ h1 {
     margin-right: 8px;
 }
 
+
+.information a, .information a:visited, .information a:active {
+    color: #BB86FC;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.test {
+    height: 50px;
+    width: 50px;
+    background-color: #BB86FC;
+    margin: 5px;
+}
+
+.blocks{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.otstyp {
+    margin-top: 20px;
+}
 
